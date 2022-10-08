@@ -1,0 +1,76 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html, body
+{
+  background-color: rgb(197, 214, 231);
+  font-family: Lato, sans-serif;
+}
+
+h1
+{
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.title-container
+{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  
+}
+.calculator-container
+{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator
+{
+  width: 360px;
+  height: 550px;
+  background-color: #5c6670;
+  border: 8px solid rgb(234, 233, 233);
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 23% 60% 17%;
+}
+  .calculator-screen
+  {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center; 
+  }
+  .calculator-buttons
+  {
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator-clearButton
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,23 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.Screen
+{
+	width: 320px;
+	height: 75px;
+	background-color: #313131;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #F3FCFB;
+	font-family: Lato, sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	border-radius: 10px;
+}
+.Screen div
+{
+	padding-right: 10px;
+}

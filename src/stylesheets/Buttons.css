@@ -1,0 +1,31 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.Buttons
+{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #94A4AC;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.Buttons:hover
+{
+    background-color: #FFF;
+    color: #94A4AC;
+}
+
+.operator
+{
+    background-color: #649BCB ;
+}
